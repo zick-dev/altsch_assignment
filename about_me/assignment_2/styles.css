@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+
+body {
+  background-color: rgb(153, 109, 93);
+  background-image: url(/about_me/background/majid-gheidarlou-dViaab0Qc8o-unsplash.jpg);
+  background-size: cover;
+  background-size: no-repeat;
+  margin: 0;
+}
+header {
+  color: #1b4332;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#read_me {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b4332;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  text-align: left;
+  border-radius: 0%;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  color: #003817d6;
+  font-weight: bolder;
+  /*border: 1px solid #ddd;*/
+}
+
+th {
+  color: #1b4332;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+caption {
+  caption-side: bottom;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+header h1 {
+  color: #1b4332;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#home_page {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1b4332;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#home_page:hover {
+  background-color: #45a049;
+}
+
+/* Main Content Styling */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+#my_audio,
+#my_video,
+#screenshot {
+  background: transparent;
+  padding: 15px;
+  /*border: 1px solid #ddd;*/
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  text-align: center;
+}
+
+audio,
+video,
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Figcaption Styling */
+figcaption.comment {
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  color: #dddddd;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Picture element responsive handling */
+picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  #read_me,
+  #home_page {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+  }
+
+  table {
+    font-size: 1.2rem; /* Adjust table font size */
+    margin-top: 50px; /* Reduce margin for smaller screens */
+  }
+
+  th,
+  td {
+    padding: 10px; /* Adjust padding */
+  }
+
+  main {
+    padding: 5px; /* Reduce padding */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  #read_me,
+  #home_page {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 6px 10px; /* Adjust padding for buttons */
+  }
+
+  figcaption.comment {
+    font-size: 2.5rem; /* Smaller caption for mobile */
+  }
+
+  p {
+    font-size: 1.9rem; /* Smaller font for paragraphs */
+  }
+
+  table {
+    font-size: 1rem; /* Even smaller font for table */
+  }
+
+  th,
+  td {
+    padding: 8px; /* Adjust padding */
+  }
+}

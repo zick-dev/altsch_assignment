@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(assignment_2/media/majid-gheidarlou-dViaab0Qc8o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 900;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #fcfcfc;
+}
+
+#altsch_link {
+  padding-top: 5px;
+  position: relative;
+  margin-left: 65%;
+  margin-top: 10px auto;
+  border-top: 1;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  background-color: #004b01d6;
+  float: right;
+}
+
+a {
+  color: #004b01d6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-radius: 10px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /*background-color: #a5a5a5;*/
+}
+
+a:hover {
+  color: #bb9457;
+}
+
+#altsch_signin a {
+  font-size: 2.9rem;
+  font-weight: bold;
+  background-color: #004b01d6;
+}
+#altsch_signin p {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+/* Form Container */
+form {
+  background: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+  max-width: 400px;
+  width: 100%;
+  font-size: 1.9rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #fbfffdd6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #121312d6;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #004b01d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #004b01d6;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #004b01d6;
+}
+
+/* Additional Styling for Header and Links */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 a {
+  font-size: 1rem;
+  color: #e4e7e5d6;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header h1 {
+  font-size: 2.9rem;
+  color: #f0f3f1d6;
+}
+header h1 span {
+  color: #004b01d6;
+}
+
+/* Navigation Link */
+a {
+  color: #f3f5f4d6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: #22333b;
+}
+
+/* Section Styling */
+section#about {
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section#about h2,
+h3,
+p {
+  font-size: 2rem;
+  color: rgb(241, 237, 237);
+  margin-bottom: 10px;
+}
+
+/* Main Content Styling */
+main#bio {
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+main#bio h1 {
+  font-size: 2rem;
+  color: #eef2f0d6;
+  margin-bottom: 20px;
+}
+
+main#bio p {
+  font-size: 1.8rem;
+  color: #f6f8f7d6;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  border-radius: 5px;
+  /*background-color: #a5a5a5;*/
+}
+
+main#bio h3 {
+  font-size: 1.9rem;
+  color: #ebf0eed6;
+  margin-bottom: 10px;
+}
+#bio a {
+  background-color: #004b01d6;
+}
+/* Goals List Styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li h4 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 10px;
+  font-size: large;
+}
+
+/* Back to Top Link */
+#top {
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 1.9rem;
+  font-weight: bold;
+  /* background-color: #a5a5a5;*/
+  float: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.3rem;
+    }
+  
+    #altsch_link {
+      margin-left: 0;
+      margin-top: 10px;
+      font-size: 1.3rem;
+    }
+  
+    #altsch_signin a,
+    #altsch_signin p {
+      font-size: 1.5rem;
+    }
+  
+    form {
+      font-size: 1.2rem;
+    }
+  
+    button[type="submit"] {
+      font-size: 1.5rem;
+    }
+  
+    section#about h2,
+    h3,
+    p,
+    main#bio h1,
+    main#bio p,
+    main#bio h3 {
+      font-size: 1.5rem;
+    }
+  
+    #top {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    h1 a {
+      font-size: 0.9rem;
+    }
+  
+    a {
+      font-size: 1.2rem;
+    }
+  
+    button[type="submit"] {
+      font-size: 1.2rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    #top {
+      font-size: 1.2rem;
+    }
+  }
